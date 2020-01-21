@@ -8,8 +8,8 @@
     <link rel="stylesheet" type="text/css" href="./fonts/fonts.css">
     <title>Tesla</title>
   </head>
-  <body class="wrap">
-    <div class="header">
+  <body>
+    <header>
       <div class="logo">
         <img src="./img/Tesla-Wordmark-Red.png" alt="logo">
       </div>
@@ -27,7 +27,7 @@
           <img src="./img/burger.png" alt="menu">
         </a>
       </nav>
-    </div>
+    </header>
     <section class="main">
   	  <div class="model-s">
         <h1 class="model-s__title">Model S</h1>
@@ -39,21 +39,21 @@
       </div>
       <div class="details">
         <div class="details__tech">
-          <div class="details__tech__speed">
+          <div class="details__tech_speed">
             <img src="./img/Speed.png" alt="speed__icon" class="speed__icon">
-            <span class="tesla-desc">
-              <span class="tesla-desc__numb">2,7 сек</span>
-              <span class="tesla-desc__value">0-100 км/час</span>
-            </span>
+            <div class="tesla-desc">
+              <p class="tesla-desc__title">2,7 <span class="tesla-desc__title-small">сек</span></p>
+              <p class="tesla-desc__text small-text">0-100км/час</p>
+            </div>
           </div>
-          <div class="details__tech__route">
+          <div class="details__tech_route">
             <img src="./img/Road icon.png" alt="distance__icon" class="distance__icon">
-            <span class="tesla-desc">
-              <span class="tesla-desc__numb">632 км</span>
-              <span class="tesla-desc__value">запас хода</span>
-            </span>
+            <div class="tesla-desc">
+              <p class="tesla-desc__title">632 <span class="tesla-desc__title-small">км</span></p>
+              <p class="tesla-desc__text small-text">запас хода</p>
+            </div>
           </div>
-        <div class="details__order">
+        <div class="details__btn">
           <button class="test-drive-btn">тест драйв</button>
           <button class="order-btn">заказать</button>
         </div>
@@ -68,58 +68,44 @@
       <div class="specific-model">
         <h1 class="specific-model__title">Model S</h1>
       </div>
-      <div class="specific-drive">
-        <div class="specific-drive-wrap">
-          <div class="specific-drive__content">
+      <div class="inner">
+        <div class="specific-drive">
+          <div class="specific-drive__wrap">
             <h2 class="specific-drive__title">Будущее вождения</h2>
             <p class="specific-drive__text">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
           </div>
-          <div class="specific-drive__details">
+          <div class="specific-drive__item">
             <div class="tesla-display">
-              <img src="./img/display-icon.png" alt="tesla-display__img" class="tesla-display__img">
-                <div class="tesla-display__title">
-                  <div class="tesla-display__inc__wrap">
-                    <span class="tesla-display__inc">17 дюймов</span>
-                  </div>
-                    <span class="tesla-display__big-size">Большой дисплей</span>
-                </div>
-            </div>
-            <div class="tesla-soft">
-              <div class="tesla-soft__img">
-                <img src="./img/wifi-icon.png" alt="tesla-soft__img_element" class="tesla-soft__img_element">
+              <img src="./img/display-icon.png" alt="tesla-display" class="tesla-display__icon">
+              <div class="specific-desc">
+                <p class="specific-desc__title">17 <span class="specific-desc__title-span">дюймов</span></p>
+                <p class="small-text">Большой дисплей</p>
               </div>
-              <div class="tesla-soft__title">
-                <div class="tesla-soft__wifi__wrap">
-                  <p class="tesla-soft__wifi">Беспроводное</p>
-                  <p class="tesla-soft__wifi_up">обновление ПО</p>
-                </div>
-                <p class="tesla-soft__function">Повышенная </p>
-                <p class="tesla-soft__function_up">фунциональность</p>
+            <div class="tesla-wifi">
+              <img src="./img/wifi-icon.png" alt="tesla-wifi" class="tesla-wifi__icon">
+              <div class="specific-desc">
+                <p class="specific-desc__title-small">Беспроводное обновление ПО</p>
+                <p class="small-text">Повышенная фунциональность</p>
               </div>
             </div>
-            <div class="tesla-space">
-              <div class="tesla-space__img">
-                <img src="./img/bag-icon.png" alt="tesla-space__img_element" class="tesla-space__img_element">
-              </div>
-              <div class="tesla-space__title">
-                <span class="tesla-space__title__wrap">
-                  <span class="tesla-space__digit">894</span>литра
-                  </span>
-                  <p class="tesla-space__info">Объем грузового</p>
-                  <p class="tesla-space__info_up">пространства</p>
+            <div class="tesla-bag">
+              <img src="./img/bag-icon.png" alt="tesla-bag" class="tesla-bag__icon">
+              <div class="specific-desc">
+                <p class="specific-desc__title">894 <span class="specific-desc__title-span">литра</span></p>
+                  <p class="small-text">Объем грузового пространства</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="specific-btn__wrap">
-          <button class="specific-more">узнать больше</button>
-          <button class="specific-order">заказать</button>
+        <div class="inner__btn">
+          <button class="btn-more">узнать больше</button>
+          <button class="btn-order">заказать</button>
         </div>
       </div>
     </section>
     <section class="safety">
-  	  <div class="safety-specific">
-        <div class="safety-specific__content">
+  	  <div class="inner">
+        <div class="safety-specific">
           <div class="safety-specific__header">
             <h2 class="safety-specific__title">Самый безопасный автомобиль в мире</h2>
             <p class="safety-specific1__text">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
@@ -167,9 +153,9 @@
             </div>
           </div>
         </div>
-        <div class="safety-btn__wrap">
-          <button class="safety-drive">тест драйв</button>
-          <button class="safety-order">заказать</button>
+        <div class="inner__btn">
+          <button class="btn-more">узнать больше</button>
+          <button class="btn-order">заказать</button>
         </div>
       </div>
       <div class="safety-model">
