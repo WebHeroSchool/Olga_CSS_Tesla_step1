@@ -7,17 +7,17 @@ body {
     max-width: 1440px;
 }
 
-header{
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding-bottom: 60px;
+    padding: 24px 60px 60px 45px;
 }
 
 .logo {
-    height: 51px;
-    width: 166px;
+    height: 50px;
+    width: 165px;
 }
 
 .model__item,
@@ -25,6 +25,7 @@ header{
     position: relaitive;
     color: #000;
     font-weight: 600;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -36,9 +37,21 @@ header{
     margin-right: 0px;
 }
 
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .menu__item {
      margin-right: 30px;
 }
+
+.burger-menu {
+    width: 24px;
+    height: 15px;
+}
+
 
 .model__item:hover, 
 .model__item:active,
@@ -242,8 +255,8 @@ button::-moz-focus-inner {
 
 @media (min-width: 481px) and (max-width: 986px) {
 
-    header {
-    	padding-bottom: 80px;
+    .header {
+    	padding: 24px 30px 80px 15px;
     }
 
     .logo {
@@ -257,10 +270,6 @@ button::-moz-focus-inner {
         width: 138px;
         height: 42px;
         margin: 0;
-    }
-
-    .burger__img {
-        margin-right: 33px;
     }
 
 
@@ -366,8 +375,8 @@ button::-moz-focus-inner {
 
     @media (min-width: 320px) and (max-width: 480px) {
     
-    header {
-    	padding-bottom: 30px;
+    .header {
+    	padding: 5px 20px 30px 5px;
     } 
 
     .logo {
