@@ -516,7 +516,7 @@ button::-moz-focus-inner {
 }
 
 
-@media (min-width: 481px) and (max-width: 986px) {
+@media (min-width: 569px) and (max-width: 986px) {
 
     .header {
     	padding: 24px 30px 80px 15px;
@@ -652,12 +652,13 @@ button::-moz-focus-inner {
 
     .specific-drive {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 55px 40px;
     }
 
     .specific-drive__wrap {
         flex-basis: 45%;
+        padding-right: 50px;
     }
 
     .specific-drive__title {
@@ -669,7 +670,7 @@ button::-moz-focus-inner {
     }
 
     .specific-drive__item {
-        padding-right: 40px;
+        padding-right: 30px;
     }
 
     .tesla-display,
@@ -699,9 +700,9 @@ button::-moz-focus-inner {
     }
 
     .safety-model {
-    	min-height: 550px;
         background-position-x: 50%;
         background-size: 80%;
+        margin-bottom: 60px;
     }
 
     .safety-model__img {
@@ -713,7 +714,8 @@ button::-moz-focus-inner {
     }
 
     .safety-specific__wrap {
-        padding-right: 70px;;
+    	flex-basis: 50%;
+        padding-right: 50px;
     }
 
     .safety-specific__title {
@@ -726,8 +728,8 @@ button::-moz-focus-inner {
 
     .safety-specific {
         display: flex;
-        justify-content: center;
-        padding: 55px 35px;
+        justify-content: space-around;
+        padding: 55px 40px;
     }
 
 
@@ -745,7 +747,7 @@ button::-moz-focus-inner {
 }
 
 
-    @media (min-width: 320px) and (max-width: 480px) {
+    @media (min-width: 320px) and (max-width: 568px) {
     
     .header {
     	padding: 5px 20px 30px 5px;
@@ -925,9 +927,9 @@ button::-moz-focus-inner {
     }
 
     .safety-model {
-    	min-height: 300px;
         background-position-x: 50%;
         background-size: 100%;
+        margin-bottom: 60px;
     }
 
     .safety-model__img {
