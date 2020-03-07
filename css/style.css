@@ -30,7 +30,7 @@ body {
 }
 
 .model__item {
-    margin-right: 40px;
+    margin-right: 35px;
 }
 
  .model__item:last-child {
@@ -147,13 +147,13 @@ body {
 .speed__icon {
 	width: 46px;
     height: 35px;
-    margin-right: 14px;
+    margin-right: 15px;
 }
 
 .distance__icon {
 	width: 26px;
     height: 42px;
-    margin-right: 11px;
+    margin-right: 10px;
 }
 
 .tesla-desc {
@@ -280,7 +280,7 @@ button::-moz-focus-inner {
 }
 
 .specific-drive {
-    padding: 50px 50px 65px 60px;
+    padding: 50px 50px 65px 50px;
     color: #fff;   
 }
 
@@ -401,7 +401,7 @@ button::-moz-focus-inner {
 }
 
 .safety-specific {
-    padding: 50px 50px 65px 60px;
+    padding: 50px 50px 100px 50px;
     color: #fff;   
 }
 
@@ -418,9 +418,6 @@ button::-moz-focus-inner {
     margin-bottom: 50px;
 }
 
-.safety-specific-rating {
-    margin-bottom: 100px;
-}
 
 .rating-category {
     display: flex;
@@ -439,7 +436,7 @@ button::-moz-focus-inner {
     font-size: 17px;
     color: #FFF;
     text-transform: uppercase;
-    margin: 0 0 16px 0;
+    margin: 0 10px 16px 0;
 }
 
 .rating-category__text-small {
@@ -454,26 +451,28 @@ button::-moz-focus-inner {
 .safety-stars {
     display: flex;
     justify-content: space-between;
-    padding-right: 25px;
 }
 
 .safety-stars__icon {
     background: url(../img/Star.png) repeat-x;
     height: 25px;
     width: 125px;
-    margin-right: 4px;
+    margin-right: 5px;
 }
 
 .safety-specific-stars {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
+    color: #fff;
+    margin-bottom: 65px;
 }
 
 .safety-specific-stars__img {
     width: 65px;
     height: 75px;
-    margin-right: 22px;
+    margin-right: 20px;
 }
 
 .safety-specific-stars__title {
@@ -747,7 +746,7 @@ button::-moz-focus-inner {
 }
 
 
-    @media (min-width: 320px) and (max-width: 568px) {
+    @media (max-width: 568px) {
     
     .header {
     	padding: 5px 20px 30px 5px;
